@@ -1,0 +1,28 @@
+.elemento {
+    margin-left: 50px; /* Margen izquierdo */
+    margin-right: 40px; /* Margen derecho */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 24px; /* Tamaño de fuente más grande */
+
+}
+.extruc{
+    font-weight: bold; /* Texto en negrita */
+    font-size: 24px; /* Tamaño de fuente más grande */
+
+
+}
+.imagen{
+    margin-top: 188px;
+}
+.video{
+    margin-left: 350px; /* Margen izquierdo */
+    position: relative;
+    top: 20px; /* Ajusta el valor según sea necesario */
+
+}
+.eti{
+    margin-left: 550px; /* Margen izquierdo */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 29px; /* Tamaño de fuente más grande */
+
+}
