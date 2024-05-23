@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="etilo.css">
     <script>
         tailwind.config = {
             theme: {
@@ -380,7 +380,9 @@
                             </a>
                         </li>
                     </ul>
+
                     <div class="lg:hidden">
+                        <img src="https://i.pinimg.com/236x/d2/99/7f/d2997fd3312056df09cbf0f6f33a989b.jpg" alt="">
                         <button aria-label="Open Menu" title="Open Menu"
                             class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline">
                             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -398,57 +400,37 @@
         </div>
     </header>
     <main>
-        <section>
-            <section class="dark:bg-gray-100 dark:text-gray-800">
-                <div
-                    class="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-                    <h1 class="text-4xl font-bold leading-none sm:text-5xl">Bienvenidos al curso de html </h1>
-                    <h2>chicos, chicas, señores y señoras tambien por que nunca es tarde para aprender y empezar
-                        a enamorarse de este mundo, el desarrollo web</h2>
-                    <h3> Este curso está diseñado para aquellos que están empezando en el mundo del desarrollo web y
-                        desean adquirir las habilidades básicas necesarias para construir páginas web desde cero. </h3>
+      
 
+    <section>
+        <div class="contenedor">
+            <div class="formularios">
+                <form action="#">
+                    <h2>Iniciar Sesión</h2>
 
-                </div>
-            </section>
-
-            <section>
-                <section class="dark:bg-gray-100 dark:text-gray-800">
-                    <div class="container max-w-5xl px-4 py-12 mx-auto">
-                        <div class="grid gap-4 mx-4 sm:grid-cols-12">
-                            <div class="col-span-12 sm:col-span-3">
-                                <div
-                                    class="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-600">
-
-                                    <span class="text-sm font-bold tracking-wider uppercase dark:text-teal-600	">Durante
-                                        este curso, vamos a ver:</span>
-                                </div>
-                            </div>
-                            <div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
-                                <div
-                                    class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-300">
-                                    <div
-                                        class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-violet-600">
-                                        <h3 class="text-xl font-semibold tracking-wide">
-
-                                            . La estructura básica de html y cómo organizar nuestros
-                                            contenidos. <br>
-                                            .Las etiquetas fundamentales de HTML y cómo utilizarlas para crear
-                                            contenido legible y accesible. <br>
-                                            . La inclusión de imágenes y vídeos en nuestras páginas. <br>
-                                            . Creación de formularios y tablas para interactuar con los usuarios.
-                                            <br>
-                                        </h3>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" required>
+                        <label for="#">email</label>
                     </div>
-                </section>
-            </section>
-        </section>
-    </main>
+                    <div class="input-contenedor">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" required>
+                        <label for="#">contraseña</label>
+                    </div>
+                    <div class="olvidar">
+                    </div>
+                </form>
+
+                <div>
+                    <button>Acceder</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-neutral-200">
         <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -556,6 +538,8 @@
             </div>
         </div>
     </footer>
+    </main>
+   
 </body>
 
 </html>

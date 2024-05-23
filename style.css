@@ -26,3 +26,22 @@
     font-size: 29px; /* Tamaño de fuente más grande */
 
 }
+
+.que{
+    position: relative;
+    margin-left: 550px; /* Margen izquierdo */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 29px; /* Tamaño de fuente más grande */
+    top: 50px; /* Mueve 50px hacia abajo */
+    left: -50px; /* Mueve 50px hacia la izquierda */
+
+}
+
+.bg-neutral-200{
+    position: relative;
+    top: 50px; /* Mueve 50px hacia abajo */
+
+    
+
+}
+/* ------------------------------------------------------------------------------------------------------------------------------- */
